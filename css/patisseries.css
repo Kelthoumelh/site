@@ -1,0 +1,68 @@
+body {
+    display: block;
+    margin: 8px;
+}
+.header {
+    position: fixed;
+    Z-INDEX: 15;
+    top: 0;
+    left: 0;
+    right: 0;
+    padding: 0px 10%;
+    height: 20%;
+    justify-content: space-between;
+    align-items: center;
+    background-color:  #FBC364;
+}
+.logo{
+    color: #ffffff;
+    font-family: 'Architects Daughter', cursive;
+    font-size: 40px;
+    font-weight: 700;
+    text-decoration: none;
+    margin-top: 5%;
+    margin-left: 42%;
+}
+.formulaire{
+    margin-left: 14%;
+    margin-top: 3%;
+    display: flex;
+    color: #ffffff;
+    border-top: none;
+}
+#searchbar{
+    position:relative; width:1040px; height:auto;
+}
+.formulaire .champ{
+    width:600px; height:35px;
+    background: transparent;
+    border: none;   
+    color: white; 
+    margin-left: 37%;
+    margin-top: -2%;
+}
+.formulaire .bouton{ 
+    width: 35px; height: 35px; padding: 0; 
+    margin-top: 0.5%;
+    background-color: #FBC364;
+    border: none;
+}
+.hrh{
+    margin-top: -0.5%;
+    margin-left: 20%;
+    margin-right: 20%;
+    color: #ffffff;
+}
+.navbar a{
+    text-decoration: none;
+    color: #ffffff;
+    margin-left: 60px;
+}
+.navbar a:hover{
+    color: #E5A037;
+}
+.navbar{
+   display: flex;
+   justify-content: space-between;
+   margin-top: 3%;
+}

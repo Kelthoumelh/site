@@ -34,6 +34,10 @@ body {
     font-weight: 700;
     text-decoration: none;
     margin-top: 1%;
+    text-shadow: -4px 2px 7px rgba(10,6,54,0.98);
+}
+a.logo {
+    text-shadow: -4px 2px 7px rgb(10 6 54 / 98%);
 }
 .navbar a{
     text-decoration: none;
